@@ -1,0 +1,26 @@
+.greeting-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  margin: 20px auto;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.greeting-message p {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+}
+
+.greeting-card:hover {
+  background-color: #e0ffe0;
+  border-color: #4caf50;
+}

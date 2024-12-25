@@ -1,0 +1,33 @@
+.cities-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  color: #4caf50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+li {
+  padding: 10px 0;
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li strong {
+  font-weight: bold;
+  color: #333;
+}
+
+li:hover {
+  background-color: #f0f8ff;
+  cursor: pointer;
+}

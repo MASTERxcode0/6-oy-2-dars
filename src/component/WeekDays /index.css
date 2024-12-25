@@ -1,0 +1,31 @@
+div {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #4caf50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  font-size: 18px;
+  padding: 8px 16px;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #4caf50;
+  color: white;
+}
